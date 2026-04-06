@@ -4,6 +4,7 @@ import { getCaloriesByDate } from '@/service/calories'
 import { getWorkoutsByDate } from '@/service/workouts'
 import styles from '@/feature/calendar/dayDetail.module.css'
 
+export const dynamic = 'force-dynamic'
 export default async function DayDetailPage({ params }: { params: Promise<{ date: string }> }) {
     const { date } = await params
 
