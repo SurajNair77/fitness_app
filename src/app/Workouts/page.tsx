@@ -6,7 +6,7 @@ import targetStyles from '@/feature/workoutTracker/targetDisplay.module.css'
 import formStyles from '@/feature/workoutTracker/updateForm.module.css'
 import historyStyles from '@/feature/workoutTracker/history.module.css'
 
-
+export const dynamic = 'force-dynamic'
 export default function WorkoutCounter(){
     return(
         <div className={pageStyles.page}>
