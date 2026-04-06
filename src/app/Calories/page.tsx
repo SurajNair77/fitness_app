@@ -6,7 +6,7 @@ import targetStyles from '@/feature/calorieTracker/targetDisplay.module.css'
 import formStyles from '@/feature/calorieTracker/updateForm.module.css'
 import historyStyles from '@/feature/calorieTracker/history.module.css'
 
-
+export const dynamic = 'force-dynamic'
 export default function CalorieCounter(){
 
     return(
