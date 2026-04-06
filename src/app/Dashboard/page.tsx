@@ -3,6 +3,8 @@ import styles from '@/feature/dashboard/dashboard.module.css'
 import { getTargets } from '@/service/targets'
 import { getCompletedCalories } from '@/service/calories'
 import { getCompletedWorkouts } from '@/service/workouts'
+
+export const dynamic = 'force-dynamic'
 export default async function Dashboard(){
 
     const date = new Date().toISOString().split('T')[0]
