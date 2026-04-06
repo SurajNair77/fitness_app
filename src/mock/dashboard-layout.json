@@ -1,0 +1,71 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "site": {
+        "name": "fitness-app"
+      },
+      "language": "en"
+    },
+    "route": {
+      "name": "dashboard",
+      "displayName": "Dashboard",
+      "itemId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "templateName": "App Route",
+      "fields": {
+        "pageTitle": {
+          "value": "Dashboard"
+        }
+      },
+      "placeholders": {
+        "jss-main": [
+          {
+            "uid": "heading-001",
+            "componentName": "Heading",
+            "dataSource": "{B1C2D3E4-F5A6-7890-BCDE-F12345678901}",
+            "fields": {
+              "headingText": {
+                "value": "Dashboard"
+              },
+              "headingLevel": {
+                "value": "h2"
+              }
+            }
+          },
+          {
+            "uid": "donut-card-002",
+            "componentName": "DonutCard",
+            "dataSource": "{D3E4F5A6-B7C8-9012-DEFA-234567890123}",
+            "fields": {
+              "cardLabel": {
+                "value": "Workouts"
+              },
+              "cardType": {
+                "value": "workouts"
+              },
+              "cardColor": {
+                "value": "#3b82f6"
+              }
+            }
+          },
+          {
+            "uid": "donut-card-001",
+            "componentName": "DonutCard",
+            "dataSource": "{C2D3E4F5-A6B7-8901-CDEF-123456789012}",
+            "fields": {
+              "cardLabel": {
+                "value": "Calories"
+              },
+              "cardType": {
+                "value": "calories"
+              },
+              "cardColor": {
+                "value": "#ef4444"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

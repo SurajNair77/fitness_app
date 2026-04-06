@@ -1,0 +1,118 @@
+.page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.backLink {
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-card);
+    transition: background-color 0.2s;
+}
+
+.backLink:hover {
+    background-color: var(--bg-card-hover);
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.section {
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px var(--shadow);
+    border: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+}
+
+.calorieBadge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+    color: #fb923c;
+    background: rgba(251, 146, 60, 0.12);
+}
+
+.workoutBadge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.12);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.table thead {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border);
+}
+
+.table td {
+    padding: 0.75rem 1rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border);
+}
+
+.table tbody tr:hover {
+    background-color: var(--bg-card-hover);
+}
+
+.totalRow {
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.empty {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
