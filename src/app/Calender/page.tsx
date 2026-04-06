@@ -2,6 +2,7 @@ import styles from "@/feature/calendar/calendar.module.css"
 import CalendarGrid from "@/feature/calendar/CalendarGrid"
 import { getMonthData } from "@/actions/getMonthData"
 
+export const dynamic = 'force-dynamic'
 export default async function CalendarPage() {
     const now = new Date()
     const year = now.getFullYear()
